@@ -149,15 +149,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        
-        <Box align="center" my={4}>
-          <NextLink href="/posts" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
     </Container>
   </Layout> 
