@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
       SwipeArena is a multiplayer video game in which the player swipe on its screen 
-      to move the character and tries to defeat his opponent.
+      to move his character and tries to defeat the opponent.
       </P> 
       <List ml={4} my={4}>
         <ListItem>
