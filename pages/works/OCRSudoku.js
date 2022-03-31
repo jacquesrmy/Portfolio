@@ -44,8 +44,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/OCRSudoku_01.png" alt="OCRSudoku" />
-      <WorkImage src="/images/works/OCRSudoku_02.png" alt="OCRSudoku" />
+      <WorkImage src="/images/works/OCRSudoku_01.PNG" alt="OCRSudoku" />
+      <WorkImage src="/images/works/OCRSudoku_02.PNG" alt="OCRSudoku" />
       <WorkImage src="/images/works/OCRSudoku_03.png" alt="OCRSudoku" />
     </Container>
   </Layout>
