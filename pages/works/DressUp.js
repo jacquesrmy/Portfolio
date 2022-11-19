@@ -17,9 +17,9 @@ const Work = () => (
   
       <P>- The creation and management of accounts in a firebase database.</P>
       <P>- The addition and the possibility to modify the clothes of its own wardrobe.</P>
-      <P>- The proposal of an outfit for each day according to the weather and the user'&apos;'s preferences.</P>
+      <P>- The proposal of an outfit for each day according to the weather and the user&apos;s preferences.</P>
       <P>- A social part allowing you to post and share your outfits.</P>
-      <P>- An AI determining the user'&apos;'s preferences when using the application.</P>
+      <P>- An AI determining the user&apos;s preferences when using the application.</P>
       <P>- A selling part with complete outfits in partnership with small and eco-responsible brands.</P>
       <List ml={4} my={4}>
         <ListItem>
