@@ -8,6 +8,7 @@ import thumbOCRSudoku from '../public/images/works/OCRSudoku.png'
 import thumbAfit from '../public/images/works/Afit.png'
 import thumbPortfolio from '../public/images/works/Portfolio.png'
 import thumbSwipeArena from '../public/images/works/SwipeArena.png'
+import thumbDressUp from '../public/images/works/DressUp.png'
 
 
 
@@ -51,8 +52,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={1.5}>
-        <WorkGridItem id="SwipeArena" title="SwipeArena" thumbnail={thumbSwipeArena}>
+          <WorkGridItem id="SwipeArena" title="SwipeArena" thumbnail={thumbSwipeArena}>
             A 2D multiplayer game made with Unity.
+          </WorkGridItem>
+        </Section>
+        <Section delay={1.5}>
+          <WorkGridItem id="DressUp" title="DressUp" thumbnail={thumbDressUp}>
+            An android and IOS application made with React Native.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

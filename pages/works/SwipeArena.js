@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="SwipeArena">
     <Container>
       <Title>
-      SwipeArena <Badge>2022?-</Badge>
+      SwipeArena <Badge>2022-?</Badge>
       </Title>
       <P>
       SwipeArena is a multiplayer video game in which the player swipe on its screen 
