@@ -1,5 +1,5 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
-import { ExternalLinkIcon, ViewIcon } from '@chakra-ui/icons'
+import { ViewIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -11,16 +11,16 @@ const Work = () => (
       42sh <Badge>2024</Badge>
       </Title>
       <P>
-      The project is about developing "42sh", a UNIX shell program compliant with the POSIX standard.
+      The project is about developing &quot;42sh&quot;, a UNIX shell program compliant with the POSIX standard.
        This entails creating a command-line interface that can interpret and execute commands given by the user. 
        Key features include handling simple commands, command lists, if statements, variable assignment and expansion, 
-       file redirections, pipelines, and logical operators. The shell supports built-in commands like 'echo', 'true', and 'false', 
-       and is capable of executing scripts from files, strings using the '-c' option, or standard input. 
+       file redirections, pipelines, and logical operators. The shell supports built-in commands like &apos;echo&apos;, &apos;true&apos;, and &apos;false&apos;, 
+       and is capable of executing scripts from files, strings using the &apos;-c&apos; option, or standard input. 
        The project emphasizes correct error handling, memory management, 
        and the use of POSIX-defined behavior to ensure compatibility across UNIX-like systems. 
        Advanced features, such as handling quotes, executing while/until loops, and expanding special variables, 
-       are also implemented. The shell's development process involves creating a lexer and parser to interpret shell syntax, 
-       managing process execution, and ensuring proper interaction with the operating system's file and process management capabilities.
+       are also implemented. The shell&apos;s development process involves creating a lexer and parser to interpret shell syntax, 
+       managing process execution, and ensuring proper interaction with the operating system&apos;s file and process management capabilities.
       </P>
       <List ml={4} my={4}>
         <ListItem>

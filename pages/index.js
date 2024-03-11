@@ -75,17 +75,17 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hey there! I'm Jacques, studying at EPITA in Lyon and I'm all about 
-          creating cool digital stuff. Whether it's dreaming up new ideas, 
+          Hey there! I&apos;m Jacques, studying at EPITA in Lyon and I&apos;m all about 
+          creating cool digital stuff. Whether it&apos;s dreaming up new ideas, 
           designing them, or coding them into reality, I love the whole process. 
-          When I'm not glued to a screen, you can find me hanging out with friends 
+          When I&apos;m not glued to a screen, you can find me hanging out with friends 
           or learning something new - honestly, anything goes!
         </Paragraph>
         <br />
         <Paragraph>
           Learning new tricks and diving into different technologies is kind of my jam. 
-          I mean, there's always something new popping up, right? It keeps things exciting. 
-          If you're curious about the projects I've worked on or just wanna talk, welcome to my portfolio's the place.
+          I mean, there&apos;s always something new popping up, right? It keeps things exciting. 
+          If you&apos;re curious about the projects I&apos;ve worked on or just wanna talk, welcome to my portfolio&apos;s the place.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
