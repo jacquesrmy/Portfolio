@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Portfolio">
     <Container>
       <Title>
-      Portfolio <Badge>2022-</Badge>
+      Portfolio <Badge>2022</Badge>
       </Title>
       <P>
       This is just a simple portfolio, the place where you are.

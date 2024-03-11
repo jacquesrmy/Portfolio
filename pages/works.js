@@ -9,6 +9,7 @@ import thumbAfit from '../public/images/works/Afit.png'
 import thumbPortfolio from '../public/images/works/Portfolio.png'
 import thumbSwipeArena from '../public/images/works/SwipeArena.png'
 import thumbDressUp from '../public/images/works/DressUp.png'
+import thumb42sh from '../public/images/works/42sh_01.png'
 
 
 
@@ -38,6 +39,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id="Portfolio" title="Portfolio" thumbnail={thumbPortfolio}>
             My personal portfolio.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="42sh" title="42sh" thumbnail={thumb42sh}>
+            A UNIX shell program compliant with the POSIX standard.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

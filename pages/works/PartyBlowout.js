@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="PartyBlowout">
     <Container>
       <Title>
-      PartyBlowout <Badge>2021-</Badge>
+      PartyBlowout <Badge>2021</Badge>
       </Title>
       <P>
       PartyBlowout is a multiplayer video game in which the player can either host or join a game. 

@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="SwipeArena">
     <Container>
       <Title>
-      SwipeArena <Badge>2022-?</Badge>
+      SwipeArena <Badge>2023-?</Badge>
       </Title>
       <P>
       SwipeArena is a multiplayer video game in which the player swipe on its screen 
@@ -30,11 +30,6 @@ const Work = () => (
           </Link>
         </ListItem>
       </List>
-
-
-      <WorkImage src="/images/works/SwipeArena_01.png" alt="SwipeArena" />
-      <WorkImage src="/images/works/SwipeArena_02.png" alt="SwipeArena" />
-      <WorkImage src="/images/works/SwipeArena_03.png" alt="SwipeArena" />
     </Container>
   </Layout>
 )

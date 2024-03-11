@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Afit">
     <Container>
       <Title>
-      Afit <Badge>2020-</Badge>
+      Afit <Badge>2020</Badge>
       </Title>
       <P>
       The AFIT (Standing for Arithmetic for IT) project has for aim to build first standard ciphering algorithms ; 

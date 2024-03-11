@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacques Remy
           </Heading>
-          <p>19yo passionate developer</p>
+          <p>21 yo passionate developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,11 +75,17 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Jacques is a student at EPITA based in Lyon with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his friends.
+          Hey there! I'm Jacques, studying at EPITA in Lyon and I'm all about 
+          creating cool digital stuff. Whether it's dreaming up new ideas, 
+          designing them, or coding them into reality, I love the whole process. 
+          When I'm not glued to a screen, you can find me hanging out with friends 
+          or learning something new - honestly, anything goes!
+        </Paragraph>
+        <br />
+        <Paragraph>
+          Learning new tricks and diving into different technologies is kind of my jam. 
+          I mean, there's always something new popping up, right? It keeps things exciting. 
+          If you're curious about the projects I've worked on or just wanna talk, welcome to my portfolio's the place.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -109,6 +115,10 @@ const Home = () => (
         <BioSection>
           <BioYear>2022</BioYear>
           Studied 1 semester in Ireland at IT Sligo in Computer Science.
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Participated to Finance & Innovation for Good Competition.
         </BioSection>
       </Section>
 

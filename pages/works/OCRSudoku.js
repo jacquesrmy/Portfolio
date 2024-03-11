@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="OCRSudoku">
     <Container>
       <Title>
-      OCRSudoku <Badge>2021-</Badge>
+      OCRSudoku <Badge>2021</Badge>
       </Title>
       <P>
       The OCRSudoku is an Optical Character Recognition (OCR) software that solves a sudoku grid. 
