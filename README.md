@@ -13,9 +13,3 @@ In this portfolio, I have gathered a collection of my projects to showcase my sk
 - Project showcase with descriptions and screenshots
 - Links to live demos or repositories
 - Contact information
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript

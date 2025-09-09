@@ -1,32 +1,42 @@
 {
-  "name": "evonya-homepage",
-  "version": "1.0.0",
-  "description": "Jacques website",
+  "name": "jacques-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
-    "start": "next start",
-    "prettier": "prettier --write .",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "Jacques Remy",
-  "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.1",
-    "@chakra-ui/react": "^1.7.2",
-    "@emotion/react": "^11.6.0",
-    "@emotion/styled": "^11.6.0",
-    "framer-motion": "^5.3.0",
-    "next": "^12.3.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "three": "^0.134.0"
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^10.0.8",
+    "@react-three/fiber": "^9.1.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.50.1",
+    "@tailwindcss/vite": "^4.1.7",
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.4",
+    "lightningcss": "^1.30.1",
+    "lightningcss-win32-x64-msvc": "^1.30.1",
+    "maath": "^0.10.8",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-responsive": "^10.0.1",
+    "react-scroll": "^1.9.3",
+    "tailwindcss": "^4.1.7",
+    "three": "^0.176.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
-    "prettier": "^2.4.1"
+    "@eslint/js": "^9.25.0",
+    "@iconify/react": "^6.0.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
   }
 }
