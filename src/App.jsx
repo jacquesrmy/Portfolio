@@ -65,7 +65,7 @@ const App = () => {
           Veuillez l'activer dans les paramètres de votre navigateur, ou changer de navigateur, puis rechargez la page.
         <br />
         <br />
-        <em>Par exemple, vous pouvez consulter ce lien pour Opera : 
+        <em>Par exemple, vous pouvez consulter ce lien pour Opera et Chrome: 
         <br />
           chrome://settings/?search=Syst%C3%A8me </em>
         </p>
