@@ -36,9 +36,21 @@ const App = () => {
   const [isReady, setIsReady] = useState(false);
   const [hwAcceleration, setHwAcceleration] = useState(true);
   const [checked, setChecked] = useState(false);
+  const [isMobileWarningVisible, setIsMobileWarningVisible] = useState(false);
+
+  // Détection mobile
+  useEffect(() => {
+    const isMobile =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      ) || window.innerWidth <= 900;
+
+    if (isMobile) {
+      setIsMobileWarningVisible(true);
+    }
+  }, []);
 
   useEffect(() => {
-    // Vérifier hardware acceleration une seule fois au montage
     const hw = checkHardwareAcceleration();
     setHwAcceleration(hw);
     setChecked(true);
@@ -50,10 +62,8 @@ const App = () => {
     }
   }, [progress, hwAcceleration]);
 
-  // Tant que le check n’est pas fait → rien
   if (!checked) return null;
 
-  // Cas 1 : Accélération désactivée → écran d’erreur permanent (pas de site)
   if (!hwAcceleration) {
     return (
       <div className="fixed inset-0 z-[999] flex flex-col items-center justify-center bg-black text-white font-light">
@@ -76,7 +86,6 @@ const App = () => {
     );
   }
 
-  // Cas 2 : Accélération activée → loader puis site
   return (
     <ReactLenis root className="relative w-screen min-h-screen overflow-x-auto">
       {/* Loader */}
@@ -97,6 +106,17 @@ const App = () => {
       {/* Site */}
       {isReady && (
         <div className="opacity-100 transition-opacity duration-1000">
+          {isMobileWarningVisible && (
+            <div className="fixed top-4 left-1/3 z-[1000] -translate-x-1/2 bg-yellow-100 text-black px-4 py-2 rounded shadow-lg text-sm max-w-[90vw]">
+              ⚠️ Ce site n’est pas encore totalement optimisé pour mobile et tablettes.
+              <button
+                onClick={() => setIsMobileWarningVisible(false)}
+                className="ml-4 text-xs underline text-black"
+              >
+                Fermer
+              </button>
+            </div>
+          )}
           <Navbar />
           <Hero />
           <ServiceSummary />
@@ -110,5 +130,6 @@ const App = () => {
     </ReactLenis>
   );
 };
+
 
 export default App;
